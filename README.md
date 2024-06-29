@@ -1,13 +1,7 @@
-# Web Slides Template
+# Slides for Software development as a process and software architecture.
+Based on: [this](https://carpentries-incubator.github.io/python-intermediate-development/30-section3-intro/index.html) and [this](https://carpentries-incubator.github.io/python-intermediate-development/32-software-architecture-design/index.html)
 
 ## Usage
-- On https://github.com/OleMussmann/reveal_template, click on "Use this template"
-  - The owner should be "NLeSC-slides"
-  - The repo name should follow the convention `YYYY-MM-DD_name`, e.g. `2029-12-24_my_great_presentation`
-  - Give a short description of the presentation/lesson content
-  - Make it `Public`
-  - Click on "Create repository"
-- Clone your new repo and `cd` into the new folder
 - Edit the `index.html`
   - Edit title, description and author in the header
   - Add your slide content in the `<div class="slides">` element
