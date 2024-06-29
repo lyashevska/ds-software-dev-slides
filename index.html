@@ -1,94 +1,114 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
 
-    <!-- BEGIN CHANGE ME -->
-    <title>TITLE</title>
-    <meta name="description" content="PRESENTATION DESCRIPTION">
-    <meta name="author" content="AUTHOR NAME">
-    <!-- END CHANGE ME -->
+<head>
+  <meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./files/favicon-32x32.png">
-    <link rel="stylesheet" href="dist/reset.css">
-    <link rel="stylesheet" href="dist/reveal.css">
-    <script src="http://localhost:35729/livereload.js"></script>
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
+  <!-- BEGIN CHANGE ME -->
+  <title>Intermediate research software development</title>
+  <meta name="description" content="Software development as a process and software architecture">
+  <meta name="author" content="Olga Lyashevska">
+  <!-- END CHANGE ME -->
 
-        <!-- BEGIN YOUR SLIDES -->
-        <section
-          data-state="blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top"
-          data-background-video="./files/Mood video Homepage 2.mp4"
-          data-background-video-loop
-          data-background-video-muted="true"
-          data-markdown>
-            <textarea data-template>
-              # My Title
-              ## Subtitle
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./files/favicon-32x32.png">
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <script src="http://localhost:35729/livereload.js"></script>
+</head>
 
-              [Author Name](mailto:a.name@esciencecenter.nl)
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- BEGIN YOUR SLIDES -->
+      <section data-state="blue_overlay yellow_flag yellow_strip purple_half_circle_bottom purple_blob right_e_top"
+        data-background-video="./files/Mood video Homepage 2.mp4" data-background-video-loop
+        data-background-video-muted="true" data-markdown>
+        <textarea data-template>
+              # Intermediate research software development
+              <!-- [Olga Lyashevska](mailto:o.lyashevska@esciencecenter.nl) -->
             </textarea>
-          </section>
+      </section>
 
-          <section> <!-- start of nested slides/column -->
-            <section data-state="standard">
-              <h2>html slides</h2>
-              <p>content</p>
-              <p>with html</p>
-            </section>
+      <section>
+        <section data-state="standard">
+          <h2>Software development as a process</h2>
+        </section>
 
-            <section data-state="standard" data-markdown>
-              <textarea data-template>
+        <section data-state="standard" data-markdown>
+          <textarea data-template>
+              ## How can we design and write ‘good’ software that meets its goals and requirements?
+
+              </textarea>
+        </section>
+
+        <section data-state="standard" data-markdown>
+          <textarea data-template>
+              ## Objectives
+              - Describe the differences between writing code and engineering software.
+              - Define the fundamental stages in a software development process.
+              - List the benefits of following a process of software development.
+              </textarea>
+        </section>
+      </section>
+
+      <section> <!-- start of nested slides/column -->
+        <section data-state="standard">
+          <h2>Software architecture</h2>
+          <p>my content</p>
+          <p>with html</p>
+        </section>
+
+        <section data-state="standard" data-markdown>
+          <textarea data-template>
                 # Header
 
                 - list item
                 - another one
               </textarea>
-            </section>
-          </section> <!-- end of nested slides/column -->
+        </section>
+      </section> <!-- end of nested slides/column -->
 
-        <!-- END YOUR SLIDES -->
-      </div>
+      <!-- END YOUR SLIDES -->
     </div>
+  </div>
 
-    <script src="dist/reveal.js"></script>
+  <script src="dist/reveal.js"></script>
 
-    <script src="plugin/highlight/highlight.js"></script>
-    <script src="plugin/markdown/markdown.js"></script>
-    <script src="plugin/math/math.js"></script>
-    <script src="plugin/notes/notes.js"></script>
-    <script src="plugin/search/search.js"></script>
-    <script src="plugin/zoom/zoom.js"></script>
-    <script src="plugin/escience/escience_5.1.0.js"></script>
-    <!--
+  <script src="plugin/highlight/highlight.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/math/math.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/search/search.js"></script>
+  <script src="plugin/zoom/zoom.js"></script>
+  <script src="plugin/escience/escience_5.1.0.js"></script>
+  <!--
     <script src="reveal.js/4.3.1/reveal.js-plugins/menu/menu.js"></script>
     -->
 
 
-    <script>
-      // More info about initialization & config:
-      // - https://revealjs.com/initialization/
-      // - https://revealjs.com/config/
-      Reveal.initialize({
-        hash: true,
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
 
-        // Automatically activate the scroll view when we the viewport falls
-        // below the given width.
-        scrollActivationWidth: 0,  // disabled
+      // Automatically activate the scroll view when we the viewport falls
+      // below the given width.
+      scrollActivationWidth: 0,  // disabled
 
-        // Force the scrollbar to remain visible
-        scrollProgress: true,
+      // Force the scrollbar to remain visible
+      scrollProgress: true,
 
-        // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Escience ]
-      });
-    </script>
-  </body>
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes, Escience]
+    });
+  </script>
+</body>
+
 </html>
